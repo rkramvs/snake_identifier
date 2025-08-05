@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>snakeidentifier</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeFavorite</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Tell us what you think!</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>❤️ Show Some Love!</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>review</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeMail</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Let’s fix it together!</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>🤔 Got a Problem?</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>support</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57B43B62E3DCBAF0091E2A7 /* AIProxyWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43B52E3DCBAF0091E2A7 /* AIProxyWrapper */; };
+		F57B43B82E3DCBAF0091E2A7 /* Analytics in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43B72E3DCBAF0091E2A7 /* Analytics */; };
+		F57B43BA2E3DCBAF0091E2A7 /* Haptic in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43B92E3DCBAF0091E2A7 /* Haptic */; };
+		F57B43BC2E3DCBAF0091E2A7 /* IdentifierScanner in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43BB2E3DCBAF0091E2A7 /* IdentifierScanner */; };
+		F57B43BE2E3DCBAF0091E2A7 /* InAppRating in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43BD2E3DCBAF0091E2A7 /* InAppRating */; };
+		F57B43C02E3DCBAF0091E2A7 /* Localisation in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43BF2E3DCBAF0091E2A7 /* Localisation */; };
+		F57B43C22E3DCBAF0091E2A7 /* PurchaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43C12E3DCBAF0091E2A7 /* PurchaseCore */; };
+		F57B43C42E3DCBAF0091E2A7 /* PurchaseUI in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43C32E3DCBAF0091E2A7 /* PurchaseUI */; };
+		F57B43C62E3DCBAF0091E2A7 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43C52E3DCBAF0091E2A7 /* Reachability */; };
+		F57B43C82E3DCBAF0091E2A7 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43C72E3DCBAF0091E2A7 /* UIComponents */; };
+		F57B43CA2E3DCBAF0091E2A7 /* UIUtility in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43C92E3DCBAF0091E2A7 /* UIUtility */; };
+		F57B43CC2E3DCBAF0091E2A7 /* UtilityKit in Frameworks */ = {isa = PBXBuildFile; productRef = F57B43CB2E3DCBAF0091E2A7 /* UtilityKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5A5F1382E3B8EB700DADAE4 /* snake identifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snake identifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F57B434F2E3DC0E10091E2A7 /* snake identifier */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "snake identifier";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A5F1352E3B8EB700DADAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B43B62E3DCBAF0091E2A7 /* AIProxyWrapper in Frameworks */,
+				F57B43BE2E3DCBAF0091E2A7 /* InAppRating in Frameworks */,
+				F57B43C02E3DCBAF0091E2A7 /* Localisation in Frameworks */,
+				F57B43C42E3DCBAF0091E2A7 /* PurchaseUI in Frameworks */,
+				F57B43C82E3DCBAF0091E2A7 /* UIComponents in Frameworks */,
+				F57B43C62E3DCBAF0091E2A7 /* Reachability in Frameworks */,
+				F57B43BA2E3DCBAF0091E2A7 /* Haptic in Frameworks */,
+				F57B43BC2E3DCBAF0091E2A7 /* IdentifierScanner in Frameworks */,
+				F57B43CA2E3DCBAF0091E2A7 /* UIUtility in Frameworks */,
+				F57B43B82E3DCBAF0091E2A7 /* Analytics in Frameworks */,
+				F57B43CC2E3DCBAF0091E2A7 /* UtilityKit in Frameworks */,
+				F57B43C22E3DCBAF0091E2A7 /* PurchaseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A5F12F2E3B8EB700DADAE4 = {
+			isa = PBXGroup;
+			children = (
+				F5A5F1392E3B8EB700DADAE4 /* Products */,
+				F57B434F2E3DC0E10091E2A7 /* snake identifier */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A5F1392E3B8EB700DADAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A5F1382E3B8EB700DADAE4 /* snake identifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A5F1372E3B8EB700DADAE4 /* snake identifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A5F1482E3B8EBA00DADAE4 /* Build configuration list for PBXNativeTarget "snake identifier" */;
+			buildPhases = (
+				F5A5F1342E3B8EB700DADAE4 /* Sources */,
+				F5A5F1352E3B8EB700DADAE4 /* Frameworks */,
+				F5A5F1362E3B8EB700DADAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F57B434F2E3DC0E10091E2A7 /* snake identifier */,
+			);
+			name = "snake identifier";
+			packageProductDependencies = (
+				F57B43B52E3DCBAF0091E2A7 /* AIProxyWrapper */,
+				F57B43B72E3DCBAF0091E2A7 /* Analytics */,
+				F57B43B92E3DCBAF0091E2A7 /* Haptic */,
+				F57B43BB2E3DCBAF0091E2A7 /* IdentifierScanner */,
+				F57B43BD2E3DCBAF0091E2A7 /* InAppRating */,
+				F57B43BF2E3DCBAF0091E2A7 /* Localisation */,
+				F57B43C12E3DCBAF0091E2A7 /* PurchaseCore */,
+				F57B43C32E3DCBAF0091E2A7 /* PurchaseUI */,
+				F57B43C52E3DCBAF0091E2A7 /* Reachability */,
+				F57B43C72E3DCBAF0091E2A7 /* UIComponents */,
+				F57B43C92E3DCBAF0091E2A7 /* UIUtility */,
+				F57B43CB2E3DCBAF0091E2A7 /* UtilityKit */,
+			);
+			productName = "snake identifier";
+			productReference = F5A5F1382E3B8EB700DADAE4 /* snake identifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A5F1302E3B8EB700DADAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F5A5F1372E3B8EB700DADAE4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = F5A5F1332E3B8EB700DADAE4 /* Build configuration list for PBXProject "snake identifier" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A5F12F2E3B8EB700DADAE4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F57B43B42E3DCBAF0091E2A7 /* XCLocalSwiftPackageReference "../../Frameworks" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F5A5F1392E3B8EB700DADAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A5F1372E3B8EB700DADAE4 /* snake identifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A5F1362E3B8EB700DADAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A5F1342E3B8EB700DADAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5A5F1462E3B8EBA00DADAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QJ8GZ4R6AG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5A5F1472E3B8EBA00DADAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QJ8GZ4R6AG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A5F1492E3B8EBA00DADAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "snake identifier/snake identifier.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ8GZ4R6AG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "snake-identifier-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snake Id";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to your camera is required to capture snake to identify.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = telephony;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reku.snake-identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5A5F14A2E3B8EBA00DADAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "snake identifier/snake identifier.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ8GZ4R6AG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "snake-identifier-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snake Id";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to your camera is required to capture snake to identify.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = telephony;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reku.snake-identifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A5F1332E3B8EB700DADAE4 /* Build configuration list for PBXProject "snake identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A5F1462E3B8EBA00DADAE4 /* Debug */,
+				F5A5F1472E3B8EBA00DADAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A5F1482E3B8EBA00DADAE4 /* Build configuration list for PBXNativeTarget "snake identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A5F1492E3B8EBA00DADAE4 /* Debug */,
+				F5A5F14A2E3B8EBA00DADAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F57B43B42E3DCBAF0091E2A7 /* XCLocalSwiftPackageReference "../../Frameworks" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Frameworks;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F57B43B52E3DCBAF0091E2A7 /* AIProxyWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AIProxyWrapper;
+		};
+		F57B43B72E3DCBAF0091E2A7 /* Analytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Analytics;
+		};
+		F57B43B92E3DCBAF0091E2A7 /* Haptic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Haptic;
+		};
+		F57B43BB2E3DCBAF0091E2A7 /* IdentifierScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IdentifierScanner;
+		};
+		F57B43BD2E3DCBAF0091E2A7 /* InAppRating */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InAppRating;
+		};
+		F57B43BF2E3DCBAF0091E2A7 /* Localisation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Localisation;
+		};
+		F57B43C12E3DCBAF0091E2A7 /* PurchaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PurchaseCore;
+		};
+		F57B43C32E3DCBAF0091E2A7 /* PurchaseUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PurchaseUI;
+		};
+		F57B43C52E3DCBAF0091E2A7 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Reachability;
+		};
+		F57B43C72E3DCBAF0091E2A7 /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponents;
+		};
+		F57B43C92E3DCBAF0091E2A7 /* UIUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIUtility;
+		};
+		F57B43CB2E3DCBAF0091E2A7 /* UtilityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UtilityKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5A5F1302E3B8EB700DADAE4 /* Project object */;
+}
