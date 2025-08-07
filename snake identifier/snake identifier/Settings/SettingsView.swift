@@ -72,44 +72,27 @@ struct SettingsView: View {
                 
                 Section(header: Text("Support").decorator(TextDecorator(font: .subheadline, fontDesign: .rounded, fontWeight: .semibold))) {
                     
-                    SettingsRowView(title: "Rate the Application",
-                                    systemSymbol: "star.fill",
+                    
+                    SettingsRowView(title: "Email Developer",
+                                    systemSymbol: "envelope",
                                     titleDecorator: AppDecorators.primaryTextDecorator)
                     .onTapGesture {
-                        AnalyticsManager.logEvent(.SettingsRateTheApp)
-                        InAppRatingController.shared.askRatingForcefully()
+                        AnalyticsManager.logEvent(.SettingsSuggestFunction)
+                        mail.model = MailModel(toMail: AppConstants.toMail,
+                                               subject: "Snake AI Support",
+                                               body: "",
+                                               info: AppConstants.mailBody(purchase: purchase))
                     }
                     
                     SettingsRowView(title: "Review the Application",
-                                    systemSymbol: "square.and.pencil",
-                                    titleDecorator: AppDecorators.primaryTextDecorator)
+                                    systemSymbol: "star.fill",
+                                    titleDecorator: AppDecorators.primaryTextDecorator,
+                                    iconDecorator: ImageDecorator(foregroundColor: Color(uiColor: .systemYellow), backgroundColor: .accentColor))
                     .onTapGesture {
                         AnalyticsManager.logEvent(.SettingsReviewTheApp)
                         openURL(URL(string: AppConstants.appStoreReviewURLString)!)
                     }
                     
-                    
-                    SettingsRowView(title: "Suggest a function",
-                                    systemSymbol: "lightbulb.fill",
-                                    titleDecorator: AppDecorators.primaryTextDecorator)
-                    .onTapGesture {
-                        AnalyticsManager.logEvent(.SettingsSuggestFunction)
-                        mail.model = MailModel(toMail: AppConstants.toMail,
-                                               subject: "Snake AI Feature Request",
-                                               body: "",
-                                               info: AppConstants.mailBody(purchase: purchase))
-                    }
-                    
-                    SettingsRowView(title: "Report the problem",
-                                    systemSymbol: "ant.fill",
-                                    titleDecorator: AppDecorators.primaryTextDecorator)
-                    .onTapGesture {
-                        AnalyticsManager.logEvent(.SettingsReportProblem)
-                        mail.model = MailModel(toMail: AppConstants.toMail,
-                                               subject: "Snake AI Bug Reporting",
-                                               body: "",
-                                               info: AppConstants.mailBody(purchase: purchase))
-                    }
                     
                     SettingsRowView(title: "Share The App",
                                     systemSymbol: "square.and.arrow.up.fill",
@@ -141,6 +124,10 @@ struct SettingsView: View {
                     }
                     
                 }
+                
+                OtherAppsSection(otherApps: [.tallyCounter, .smartReceipts, .ringSizer, .quitSmoke, .countryTracker, .chartAI, .fishId, .vegId, .seedId, .seaShellId], tapHandler: {app in
+                    AnalyticsManager.logLeadEvent(app)
+                })
                 
                 Section(header: Text("About").decorator(TextDecorator(font: .subheadline, fontDesign: .rounded, fontWeight: .semibold))) {
                     SettingsRowHInfoView(title: "App Version",
